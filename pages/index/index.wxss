@@ -1,21 +1,25 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.box {
+  background: red;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.box1 {
+  width: 100px;
+  height: 100px;
+  background: purple;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.hover-view {
+  background: orange;
+  font-size: 30px;
 }
 
-.usermotto {
-  margin-top: 200px;
+.box2 {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  margin-top: 20px;
+}
+
+.box2-hover {
+  background: green;
 }
